@@ -1,0 +1,29 @@
+Eval ID,Scenario,Conversations Executed,Passed Conversations,Pass Rate,Status,Observation
+EVAL-001,Claim Status Inquiry,5,4/5,80%,Pass,Claim status retrieved successfully with minor response variation.
+EVAL-002,Policy Renewal,5,4/5,80%,Pass,Renewal information provided correctly with minor consistency improvements required.
+EVAL-003,Policy Details Retrieval,5,4/5,80%,Pass,Policy details retrieved successfully with minor response inconsistency.
+EVAL-004,New Claim Registration,5,5/5,100%,Pass,Claim registration completed successfully across all conversations.
+EVAL-005,Human Agent Escalation,5,4/5,80%,Pass,Conversation escalated successfully with minor confirmation message variation.
+EVAL-006,Policy Benefits Information,5,3/5,60%,Fail,Benefits information was incomplete in multiple conversations; workflow requires improvement.
+EVAL-007,Policy Active Status Verification,5,5/5,100%,Pass,Policy status verified successfully across all conversations.
+EVAL-008,Policy Expiry Inquiry,5,4/5,80%,Pass,Policy expiry details returned correctly with minor formatting variation.
+EVAL-009,No Active Claims Scenario,5,5/5,100%,Pass,System correctly informed the user that no active claims were available.
+EVAL-010,Invalid Claim ID Validation,5,4/5,80%,Pass,Invalid claim identifier handled with appropriate validation message.
+EVAL-011,Policy Premium Inquiry,5,4/5,80%,Pass,Premium details retrieved successfully with minor response inconsistency.
+EVAL-012,Coverage Information Inquiry,5,4/5,80%,Pass,Coverage details displayed correctly with minor completeness improvements required.
+EVAL-013,Conversation Intent Change,5,4/5,80%,Pass,Intent switching handled successfully with minor conversational variation.
+EVAL-014,Repeated Information Request,5,5/5,100%,Pass,Previously requested information repeated accurately in every conversation.
+EVAL-015,Fallback Conversation Handling,5,4/5,80%,Pass,Fallback response triggered correctly with minor recovery improvements required.
+EVAL-016,Complete Happy Path Workflow,5,5/5,100%,Pass,Complete customer journey executed successfully without issues.
+EVAL-017,Multiple Policy Selection,5,5/5,100%,Pass,Multiple policy selection handled correctly and relevant information provided.
+EVAL-018,End-to-End Customer Journey,5,4/5,80%,Pass,End-to-end workflow completed successfully with minor response variation.
+EVAL-019,Invalid Phone Number Validation,5,5/5,100%,Pass,Invalid phone number detected and handled correctly.
+EVAL-020,Invalid Date of Birth Validation,5,5/5,100%,Pass,Invalid date of birth detected and authentication denied correctly.
+EVAL-021,Invalid Security Answer Validation,5,4/5,80%,Pass,Incorrect security answer handled correctly with minor retry guidance improvement.
+EVAL-022,Policy Details and Benefits,5,3/5,60%,Fail,Policy details and benefits workflow requires improved response completeness.
+EVAL-023,Session Memory Verification,5,4/5,80%,Pass,Conversation context maintained successfully with minor consistency variation.
+EVAL-024,Session Persistence,5,3/5,60%,Fail,Session persistence requires improved context retention across longer conversations.
+EVAL-025,Policy Renewal and Benefits,5,4/5,80%,Pass,Renewal eligibility and policy benefits returned successfully with minor response variation.
+EVAL-026,Policy Benefits and Premium Inquiry,5,4/5,80%,Pass,Benefits and premium information retrieved successfully with minor formatting variation.
+EVAL-027,Policy Details and Coverage,5,3/5,60%,Fail,Policy details and coverage workflow requires improved response completeness.
+EVAL-028,Vehicle Details Inquiry,5,3/5,60%,Fail,Vehicle information retrieved but response consistency requires improvement.
