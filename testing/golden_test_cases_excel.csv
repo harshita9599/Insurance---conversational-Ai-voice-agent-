@@ -1,0 +1,22 @@
+Eval ID,Workflow,Execution Date,Evaluation Method,Semantic Similarity,Tool Correctness,Hallucination,P90 Latency (ms),Status,Observation
+EVAL-001,Valid Motor Authentication,2026-07-12,Naive Replay,3.9/4,100%,No,8418,Pass,Authentication workflow executed successfully.
+EVAL-002,Valid Health Authentication,2026-07-12,Naive Replay,4.0/4,100%,No,5218,Pass,Authentication completed without issues.
+EVAL-003,Valid Life Authentication,2026-07-12,Naive Replay,4.0/4,100%,No,7483,Pass,Authentication completed successfully.
+EVAL-004,Invalid Phone Number,2026-07-12,Naive Replay,3.8/4,100%,No,13513,Pass,Invalid input handled correctly.
+EVAL-005,Invalid Date of Birth,2026-07-12,Naive Replay,4.0/4,100%,No,7376,Pass,Authentication rejected invalid credentials.
+EVAL-006,Invalid Security Answer,2026-07-12,Naive Replay,3.9/4,100%,No,5956,Pass,Security validation performed correctly.
+EVAL-007,Policy Details Retrieval,2026-07-13,Naive Replay,4.0/4,100%,No,8084,Pass,Policy information retrieved successfully.
+EVAL-008,Policy Renewal,2026-07-12,Naive Replay,4.0/4,100%,No,9615,Pass,Policy renewal workflow completed successfully.
+EVAL-009,Create New Claim,2026-07-13,Naive Replay,4.0/4,100%,No,7122,Pass,Claim registered successfully.
+EVAL-010,Claim Status Inquiry,2026-07-13,Naive Replay,4.0/4,100%,No,6446,Pass,Claim status retrieved successfully.
+EVAL-011,Human Agent Escalation,2026-07-13,Naive Replay,4.0/4,100%,No,7122,Pass,Conversation transferred successfully.
+EVAL-012,Policy Benefits Information,2026-07-13,Naive Replay,3.9/4,100%,No,5940,Pass,Benefits information displayed correctly.
+EVAL-013,New Customer Onboarding,2026-07-13,Naive Replay,4.0/4,100%,No,3745,Pass,Customer onboarding completed successfully.
+EVAL-014,Multiple Policy Selection,2026-07-13,Naive Replay,3.9/4,100%,No,6182,Pass,Multiple policy options presented correctly.
+EVAL-015,Change of Intent,2026-07-13,Naive Replay,4.0/4,100%,No,12575,Pass,Intent switched successfully during conversation.
+EVAL-016,Fallback Conversation,2026-07-13,Naive Replay,3.8/4,100%,No,899,Pass,Fallback response triggered appropriately.
+EVAL-017,Policy Renewal Date Inquiry,2026-07-13,Naive Replay,4.0/4,93%,No,8371,Fail,Tool execution accuracy requires improvement.
+EVAL-018,Policy Premium Inquiry,2026-07-13,Naive Replay,4.0/4,100%,No,13804,Pass,Premium information retrieved successfully.
+EVAL-019,Motor Policy Benefits,2026-07-13,Naive Replay,4.0/4,100%,No,8252,Pass,Motor policy benefits returned successfully.
+EVAL-020,Health Policy Benefits,2026-07-13,Naive Replay,4.0/4,100%,No,7705,Pass,Health policy benefits returned successfully.
+EVAL-021,Life Policy Benefits,2026-07-13,Naive Replay,4.0/4,100%,No,5439,Pass,Life policy benefits returned successfully.
