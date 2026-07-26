@@ -1,0 +1,27 @@
+Test ID,Module,Test Scenario,Execution Date,Expected Result,Actual Result,Status,Remarks
+TC-AUTH-001,Authentication,Authenticate user with valid credentials,2026-07-01,User should be authenticated successfully,User authenticated successfully,Pass,Authentication completed and session initiated.
+TC-AUTH-002,Authentication,Authenticate using invalid mobile number,2026-07-01,System should reject invalid mobile number,System displayed validation error,Pass,Input validation working as expected.
+TC-AUTH-003,Authentication,Authenticate using incorrect date of birth,2026-07-01,Authentication should fail,Authentication denied,Pass,Customer verification failed correctly.
+TC-AUTH-004,Authentication,Submit incorrect security answer,2026-07-01,Verification should fail,Verification failed,Pass,Security validation executed successfully.
+TC-AUTH-005,Authentication,Exceed maximum authentication attempts,2026-07-01,System should block further attempts,User blocked after retry limit,Pass,Retry policy enforced successfully.
+TC-AUTH-006,Authentication,Verify active session after successful login,2026-07-01,User session should remain active,Session maintained,Pass,Session management working correctly.
+TC-ONB-001,Customer Onboarding,Register a new insurance customer,2026-07-01,Customer onboarding should complete,Customer registered successfully,Pass,Customer profile created successfully.
+TC-ONB-002,Customer Onboarding,Create Motor Insurance Policy,2026-07-01,Motor policy should be created,Motor policy generated,Pass,Policy created successfully.
+TC-ONB-003,Customer Onboarding,Create Health Insurance Policy,2026-07-01,Health policy should be created,Health policy generated,Pass,Policy created successfully.
+TC-ONB-004,Customer Onboarding,Create Life Insurance Policy,2026-07-01,Life policy should be created,Life policy generated,Pass,Policy created successfully.
+TC-POL-001,Policy Services,Retrieve customer policy details,2026-07-01,Policy information should be displayed,Policy details displayed successfully,Pass,Backend API returned expected response.
+TC-BEN-001,Policy Services,Retrieve policy benefits,2026-07-01,Benefits should be displayed,Benefits displayed successfully,Pass,Coverage information retrieved successfully.
+TC-CLM-001,Claims Management,Retrieve claim status,2026-07-01,Current claim status should be displayed,Claim status retrieved successfully,Pass,Claim information returned correctly.
+TC-NEW-001,Claims Management,Register a new insurance claim,2026-07-01,Claim should be registered,New claim registered successfully,Pass,Claim creation completed successfully.
+TC-REN-001,Policy Services,Renew existing insurance policy,2026-07-01,Policy should be renewed,Policy renewed successfully,Pass,Renewal workflow completed successfully.
+TC-ESC-001,Human Escalation,Transfer conversation to live agent,2026-07-01,Conversation should be escalated,Conversation transferred successfully,Pass,Context preserved during escalation.
+TC-IR-001,Intent Recognition,Detect Customer Onboarding intent,2026-07-01,Correct intent should be identified,Intent detected correctly,Pass,Intent routing successful.
+TC-IR-002,Intent Recognition,Detect Policy Inquiry intent,2026-07-01,Correct intent should be identified,Intent detected correctly,Pass,Intent routing successful.
+TC-IR-003,Intent Recognition,Detect Benefits Inquiry intent,2026-07-01,Correct intent should be identified,Intent detected correctly,Pass,Intent routing successful.
+TC-IR-004,Intent Recognition,Detect Claim Status intent,2026-07-01,Correct intent should be identified,Intent detected correctly,Pass,Intent routing successful.
+TC-IR-005,Intent Recognition,Detect New Claim intent,2026-07-01,Correct intent should be identified,Intent detected correctly,Pass,Intent routing successful.
+TC-IR-006,Intent Recognition,Detect Policy Renewal intent,2026-07-01,Correct intent should be identified,Intent detected correctly,Pass,Intent routing successful.
+TC-IR-007,Intent Recognition,Detect Human Escalation intent,2026-07-01,Correct intent should be identified,Intent detected correctly,Pass,Intent routing successful.
+TC-EC-001,Edge Case Validation,Invalid mobile number handling,2026-07-01,System should reject invalid input,Validation error displayed,Pass,Edge case handled successfully.
+TC-EC-002,Edge Case Validation,Invalid date of birth handling,2026-07-01,System should reject invalid DOB,Authentication denied,Pass,Edge case handled successfully.
+TC-EC-003,Edge Case Validation,Incorrect verification response handling,2026-07-01,System should reject invalid answer,Verification failed,Pass,Edge case handled successfully.
